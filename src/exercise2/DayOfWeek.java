@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class DayOfWeek {
     public static void main(String[] args){
-       Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-       System.out.print("Enter a day of week: ");
-       int number = input.nextInt();
+        System.out.print("Enter a day of week: ");
+        int number = input.nextInt();
 
-       switch (number) {
+        switch (number) {
          case 1: System.out.println("Monday"); break;
          case 2: System.out.println("Tuesday"); break;
          case 3: System.out.println("Wednesday"); break;
@@ -18,8 +18,9 @@ public class DayOfWeek {
          case 6: System.out.println("Saturday"); break;
          case 7: System.out.println("Sunday"); break;
          default: System.out.println("Invalid day");
+        }
 
-       }
+       
 
     }
 

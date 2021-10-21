@@ -9,7 +9,7 @@ public class QuadraticEquation {
 
         System.out.print("Enter a, b, c: ");
         double a = input.nextDouble();
-        double b= input.nextDouble();
+        double b = input.nextDouble();
         double c = input.nextDouble();
 
         if (a != 0){

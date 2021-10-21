@@ -6,7 +6,7 @@ public class DayOfWeek {
     public static void main(String[] args){
        Scanner input = new Scanner(System.in);
 
-       System.out.print("Enter a number: ");
+       System.out.print("Enter a day of week: ");
        int number = input.nextInt();
 
        switch (number) {
@@ -17,7 +17,7 @@ public class DayOfWeek {
          case 5: System.out.println("A day of week:Friday");break;
          case 6: System.out.println("A day of week:Saturday");break;
          case 7: System.out.println("A day of week:Sunday");break;
-         default:System.out.println("A day of week:Invalid day");
+         default: System.out.println("A day of week:Invalid day");
 
        }
 

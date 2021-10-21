@@ -15,11 +15,10 @@ public class SumOfDigits {
         int secondDigit = number % 10;
         number = number / 10;
         int thirdDigit = number % 10;
-        number = number / 10;
         
         int sum = firstDigit + secondDigit + thirdDigit;
         
-        System.out.println("Sum of digits:" + sum);
+        System.out.println("Sum of digits: " + sum);
 
     }
 }
